@@ -1,6 +1,6 @@
 package kg.neo.eShopSecurity.config;
 
-import kg.neo.eShopSecurity.user.UserRepository;
+import kg.neo.eShopSecurity.repo.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

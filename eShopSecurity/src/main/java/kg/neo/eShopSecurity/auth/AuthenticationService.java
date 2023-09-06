@@ -1,9 +1,9 @@
 package kg.neo.eShopSecurity.auth;
 
 import kg.neo.eShopSecurity.config.JwtService;
+import kg.neo.eShopSecurity.repo.UserRepository;
 import kg.neo.eShopSecurity.user.Role;
 import kg.neo.eShopSecurity.user.User;
-import kg.neo.eShopSecurity.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
